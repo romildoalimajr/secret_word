@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Game.css';
 
-const Game = ({verifyLetter}) => {
+const Game = ({ verifyLetter }) => {
   return (
     <div>
       <div className='game'>
@@ -20,7 +20,7 @@ const Game = ({verifyLetter}) => {
         <div className="letterContainer">
           <p>Tente advinhar uma letra da palavra.: </p>
           <form action="">
-            <input type="text" name='letter' maxLength='1' required/>
+            <input type="text" name='letter' maxLength='1' required />
             <button>Jogar!</button>
           </form>
         </div>
