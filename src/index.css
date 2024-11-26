@@ -12,7 +12,7 @@ body {
   color: #fff;
 }
 
-button{
+button {
   background: #1646a0;
   color: #fff;
   padding: 0 45px;
@@ -25,6 +25,7 @@ button{
   cursor: pointer;
   transition: .4s;
 }
-button:hover{
+
+button:hover {
   background-color: #0926ef;
 }
